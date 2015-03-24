@@ -66,25 +66,6 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-/*CONEXÃO BASE 2*/
-
-/*CONEXÂO BANCO DE DADOS MOODLE*/
-$db['banco_2']['hostname'] = $c->db_host_base2;
-$db['banco_2']['username'] = $c->db_user_base2;
-$db['banco_2']['password'] = $c->db_pswd_base2;
-$db['banco_2']['database'] = $c->db_name_base2;
-$db['banco_2']['dbdriver'] = 'mysql';
-$db['banco_2']['dbprefix'] = '';
-$db['banco_2']['pconnect'] = FALSE;
-$db['banco_2']['db_debug'] = TRUE;
-$db['banco_2']['cache_on'] = FALSE;
-$db['banco_2']['cachedir'] = '';
-$db['banco_2']['char_set'] = 'utf8';
-$db['banco_2']['dbcollat'] = 'utf8_general_ci';
-$db['banco_2']['swap_pre'] = '';
-$db['banco_2']['autoinit'] = TRUE;
-$db['banco_2']['stricton'] = FALSE;
-$db['banco_2']['failover'] = array();
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
